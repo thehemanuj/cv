@@ -1,0 +1,265 @@
+*{
+    margin:0;
+    padding:0;
+    border:border-box;
+}
+
+body{
+    height:100vh;
+    width:100vw;
+}
+
+.top{
+    height:100vh;
+    width:100vw;
+    display:flex;
+}
+.left,.right{
+    height:100vh;
+    width:50vw;
+}
+
+.right{
+    background: linear-gradient(to bottom right,black,grey);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro{
+    margin-top:25vh;
+    margin-left: 20vh;
+    display:flex;
+}
+
+p{
+    margin-top: 2vh;
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    height:7.5vh;
+    width:50vw;
+    background:linear-gradient(to bottom left,black,grey);
+    justify-content: space-between;
+}
+
+.bar{
+    height:30vh;
+    width:1vw;
+    background:  linear-gradient(to bottom left,black,grey);
+}
+
+.about{
+    margin-top:2vh;
+    margin-left: 2vh;
+}
+
+img{
+    height:40vh;
+    width:35vh;
+    margin-left:2vw;
+}
+
+nav{
+    color:white;
+}
+nav a{
+    color: white;
+    text-decoration:none;
+    margin-left:1vh;
+    margin-right: 1vh;
+    font-style:italic ;
+}
+
+img:hover{
+    @keyframes identifier {
+        
+    }
+}
+
+.education{
+    border:5vh solid rgb(52, 50, 50);
+    height:90vh;
+    width:95vw;
+}
+
+#school{
+    margin-left:6vh ;
+}
+
+#university{
+    text-align:right;
+    margin-right:10vh;
+}
+
+.heading{
+    text-align:center;
+    font-style:italic;
+    text-decoration:underline;
+    margin-top:2.5vh;
+    font-size:4rem;
+}
+
+.big1{
+    height:2vh;
+    width:4vw;
+    border-radius: 2px;
+    background-color: grey;
+}
+
+.bigs{
+    height:100%;
+    width:80%;
+    background-color:black;
+    border-radius: 2px;
+}
+
+.skills{
+    border:5vh solid rgb(50, 50, 50);
+    height:90vh;
+    width:95vw;
+    font-size: 3rem;
+    text-align: center;
+}
+
+table{
+    margin-left:25vw;
+}
+
+#th1{
+ margin-left:15vw;
+}
+
+.big1{
+    margin-left:10vh ;
+}
+table{
+    height:50vh;
+    width:40vw;
+}
+
+th{
+    color:rgb(50, 50, 50);
+}
+
+td{
+    color:rgb(60,60,60);
+}
+
+.exjava .bigs{
+    width:60%;
+}
+
+.expy .bigs{
+    width:50%;
+}
+
+.exko .bigs{
+    width:45%;
+}
+
+.exhtml .bigs{
+    width:80%;
+}
+
+.excss .bigs{
+    width:80%;
+}
+
+.exjs .bigs{
+    width:70%;
+}
+
+.contact{
+    border:5vh solid rgb(50, 50, 50);
+    height:90vh;
+    width:95vw;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.contact p{
+    margin-top:0;
+    font-size: 2rem;
+}
+
+.linkedin,.whatsapp,.gmail,.instagram,.facebook,.github{
+    margin-top:5vh;
+    height:7.5vh;
+    width:20vw;
+    margin-left: 45%;
+    display:flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+#llogo{
+    background-image:url(/logo/linkedin.png) ;
+    background-size: cover;
+    height:7.5vh;
+    width:7.5vh;
+    margin-right:1vh;
+    border-right:4px solid rgb(50, 50, 50);
+}
+
+.mlogo{
+    background-image:url(/logo/whatsapp.jpg) ;
+    background-size: cover;
+    height:7.5vh;
+    width:7.5vh;
+    margin-right:0.54vh;
+    border-right:4px solid rgb(50, 50, 50);
+}
+
+.glogo{
+    background-image:url(/logo/gmail.png) ;
+    background-size: cover;
+    height:7.5vh;
+    width:7.5vh;
+    margin-right:0.54vh;
+    border-right:4px solid rgb(50, 50, 50);
+}
+
+.flogo{
+    background-image:url(/logo/fb.png) ;
+    background-size: cover;
+    height:7.5vh;
+    width:7.5vh;
+    margin-right:0.54vh;
+    border-right:4px solid rgb(50, 50, 50);
+}
+
+.ilogo{
+    background-image:url(/logo/instagram.png) ;
+    background-size: cover;
+    height:7.5vh;
+    width:7.5vh;
+    margin-right:0.54vh;
+    border-right:4px solid rgb(50, 50, 50);
+}
+
+.gilogo{
+    background-image:url(/logo/github.jpg) ;
+    background-size: cover;
+    height:7.5vh;
+    width:7.5vh;
+    margin-right:0.54vh;
+    border-right:4px solid rgb(50, 50, 50);
+}
+
+.qr{
+    margin-top:10vh;
+    height:40vh;
+    width:40vh;
+}
+.idk{
+    display:flex;
+}
+
+.boxc{
+    width:50vw;
+    text-align: right;
+    margin-left:19vw;
+}
